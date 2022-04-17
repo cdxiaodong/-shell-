@@ -1,8 +1,15 @@
 <font color='yellow'>熟练的 使用 shell 编程。</font>
 
+<font color='red'>
+author: cdxiaodong
+请配合上面的scripts文件夹食用
+如果需要shell脚本的可以联系我。无偿制作有趣的，关于网络安全的脚本
+
+未经允许 请勿转载
+</font>
 学习shell编程
 
-参考：
+前1到6章参考：
 
 《跟老男孩学Linux运维:Shell编程实战》
 
