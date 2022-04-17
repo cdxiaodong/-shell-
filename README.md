@@ -2,6 +2,7 @@
 
 
 author: cdxiaodong
+作者: cdxiaodong
 请配合上面的scripts文件夹食用
 如果需要shell脚本的可以联系我。
 无偿制作有趣的，关于网络安全的脚本
